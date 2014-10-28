@@ -20,3 +20,7 @@ gem 'jbuilder', '~> 1.2'
 group :doc do
   gem 'sdoc', require: false
 end
+
+group :production do
+	gem 'pg', '0.12.2'
+end
